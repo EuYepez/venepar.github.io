@@ -1,0 +1,36 @@
+html {
+    font-size: 10px; /* px quiere decir 'pixeles': el tamano de la fuente base es ahora de 10 pixeles de altura*/
+    font-family: 'Play', sans-serif; /*Este debe ser el resto del resultado que obtuviste de google fonts*/
+    background-color: #DEFFF3;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+h2{
+    font-size: 22px;
+    color: #718DFF;
+}
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+a:hover{
+    color:red;
+}
+body{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
